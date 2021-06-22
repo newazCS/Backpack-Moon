@@ -1,0 +1,150 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    color:black;
+    font-size:18px;
+    font-weight: bold;
+
+}
+
+#penShowcase{
+    background-color:rgb(255 255 244) ;
+    padding: 50px;
+}
+
+.BackpackTitle h1{
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:70px
+}
+.BackpackTitle p{
+    font-weight: bold;
+}
+
+.highLight1{
+    color:rgb(54 57 88);
+}
+.highLight2{
+    color:rgb(118 194 126);
+}
+
+#penLogo{
+    width: 50%;
+    height: 50%;
+}
+
+#penButton button{
+    background-color:rgb(42 30 89);
+    border: 0;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+}
+#penBackButton button{
+     background-color:rgb(42 30 89);
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    color:white;
+}
+.penBox{
+    width: 80%;
+    height: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#penInfo img{
+    width: 40%;
+    height: 40%;
+    margin: 30px;
+}
+#penInfo h1{
+    color:rgb(54 57 88);
+    font-weight: bold;
+    font-size:20px;
+
+}
+#penInfo p{
+    margin-right: 10px;
+}
+#penText{
+    margin-right: 100px;
+}
+#shoppingCard{
+    width: 100%;
+    height: 100%;
+}
+#Casualbackpack img{
+    background-color:#f1f1f1;
+}
+
+.CASUALhighLight{
+    color:rgb(54 57 88);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.priceHighLight{
+     color:rgb(118 194 126);
+     font-weight: bold;
+}
+#penCard{
+    padding: 30px;
+}
+.bagName{
+    font-weight: bold;
+    color:rgb(54 57 88);
+}
+#cardImage{
+    background-color:rgb(241 241 241);
+    width: 80%;
+    margin: 20px 30px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.BuyPush{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 460px) { 
+    #penLogo{
+    width: 60%;
+    }
+    #hamburger{
+        width: 20%;
+        border:0;
+        
+    }
+
+   .penBox{
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+    .BackpackTitle h1{
+    font-weight:bold;
+    width: 100%;
+    text-transform: uppercase;
+    font-size:50px
+    }
+    .BackpackTitle p{
+        font-weight: bold;
+        font-size:15px;
+    }
+
+
+
+ }
+
+    
